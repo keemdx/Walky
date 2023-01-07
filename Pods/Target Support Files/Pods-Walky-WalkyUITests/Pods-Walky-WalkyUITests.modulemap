@@ -1,0 +1,6 @@
+framework module Pods_Walky_WalkyUITests {
+  umbrella header "Pods-Walky-WalkyUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

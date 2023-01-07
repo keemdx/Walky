@@ -3,19 +3,21 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 55;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		337A15632951875B00CBCE23 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 337A15622951875B00CBCE23 /* AppDelegate.swift */; };
 		337A15652951875B00CBCE23 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 337A15642951875B00CBCE23 /* SceneDelegate.swift */; };
 		337A15672951875B00CBCE23 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 337A15662951875B00CBCE23 /* ViewController.swift */; };
-		337A156A2951875B00CBCE23 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 337A15682951875B00CBCE23 /* Main.storyboard */; };
 		337A156C2951875C00CBCE23 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 337A156B2951875C00CBCE23 /* Assets.xcassets */; };
 		337A156F2951875C00CBCE23 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 337A156D2951875C00CBCE23 /* LaunchScreen.storyboard */; };
 		337A157A2951875C00CBCE23 /* WalkyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 337A15792951875C00CBCE23 /* WalkyTests.swift */; };
 		337A15842951875C00CBCE23 /* WalkyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 337A15832951875C00CBCE23 /* WalkyUITests.swift */; };
 		337A15862951875C00CBCE23 /* WalkyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 337A15852951875C00CBCE23 /* WalkyUITestsLaunchTests.swift */; };
+		35F7574977E1B32CB222D0B1 /* Pods_WalkyTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 170EFBF679786F586A02B1C1 /* Pods_WalkyTests.framework */; };
+		A3D49988175F7B035B076FB5 /* Pods_Walky_WalkyUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43F6E114FBD53E1D81280ED1 /* Pods_Walky_WalkyUITests.framework */; };
+		DC78D362B21731889096B045 /* Pods_Walky.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5285851419D3CFDFF9B1BD5E /* Pods_Walky.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,11 +38,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		00E1F036D834FF2E5181886E /* Pods-Walky-WalkyUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Walky-WalkyUITests.release.xcconfig"; path = "Target Support Files/Pods-Walky-WalkyUITests/Pods-Walky-WalkyUITests.release.xcconfig"; sourceTree = "<group>"; };
+		07FE5B9DB7C84C3DE9F6DA3C /* Pods-Walky.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Walky.release.xcconfig"; path = "Target Support Files/Pods-Walky/Pods-Walky.release.xcconfig"; sourceTree = "<group>"; };
+		154047466225D4E665D2FDF2 /* Pods-Walky-WalkyUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Walky-WalkyUITests.debug.xcconfig"; path = "Target Support Files/Pods-Walky-WalkyUITests/Pods-Walky-WalkyUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		170EFBF679786F586A02B1C1 /* Pods_WalkyTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WalkyTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		337A155F2951875B00CBCE23 /* Walky.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Walky.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		337A15622951875B00CBCE23 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		337A15642951875B00CBCE23 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		337A15662951875B00CBCE23 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		337A15692951875B00CBCE23 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		337A156B2951875C00CBCE23 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		337A156E2951875C00CBCE23 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		337A15702951875C00CBCE23 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +54,11 @@
 		337A157F2951875C00CBCE23 /* WalkyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WalkyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		337A15832951875C00CBCE23 /* WalkyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalkyUITests.swift; sourceTree = "<group>"; };
 		337A15852951875C00CBCE23 /* WalkyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalkyUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		43F6E114FBD53E1D81280ED1 /* Pods_Walky_WalkyUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Walky_WalkyUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5285851419D3CFDFF9B1BD5E /* Pods_Walky.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Walky.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A729E8E37710BA4AB822E45 /* Pods-WalkyTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WalkyTests.release.xcconfig"; path = "Target Support Files/Pods-WalkyTests/Pods-WalkyTests.release.xcconfig"; sourceTree = "<group>"; };
+		BB522442C9810712D5492F35 /* Pods-Walky.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Walky.debug.xcconfig"; path = "Target Support Files/Pods-Walky/Pods-Walky.debug.xcconfig"; sourceTree = "<group>"; };
+		E9EC13506D775FFE992BF686 /* Pods-WalkyTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WalkyTests.debug.xcconfig"; path = "Target Support Files/Pods-WalkyTests/Pods-WalkyTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DC78D362B21731889096B045 /* Pods_Walky.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				35F7574977E1B32CB222D0B1 /* Pods_WalkyTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +82,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A3D49988175F7B035B076FB5 /* Pods_Walky_WalkyUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		10DA39BE0A8C86EC2DE05A58 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5285851419D3CFDFF9B1BD5E /* Pods_Walky.framework */,
+				43F6E114FBD53E1D81280ED1 /* Pods_Walky_WalkyUITests.framework */,
+				170EFBF679786F586A02B1C1 /* Pods_WalkyTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		337A15562951875B00CBCE23 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +106,8 @@
 				337A15782951875C00CBCE23 /* WalkyTests */,
 				337A15822951875C00CBCE23 /* WalkyUITests */,
 				337A15602951875B00CBCE23 /* Products */,
+				B7D6AD08A7EC5109F0596DEE /* Pods */,
+				10DA39BE0A8C86EC2DE05A58 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -102,7 +127,6 @@
 				337A15622951875B00CBCE23 /* AppDelegate.swift */,
 				337A15642951875B00CBCE23 /* SceneDelegate.swift */,
 				337A15662951875B00CBCE23 /* ViewController.swift */,
-				337A15682951875B00CBCE23 /* Main.storyboard */,
 				337A156B2951875C00CBCE23 /* Assets.xcassets */,
 				337A156D2951875C00CBCE23 /* LaunchScreen.storyboard */,
 				337A15702951875C00CBCE23 /* Info.plist */,
@@ -127,6 +151,19 @@
 			path = WalkyUITests;
 			sourceTree = "<group>";
 		};
+		B7D6AD08A7EC5109F0596DEE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BB522442C9810712D5492F35 /* Pods-Walky.debug.xcconfig */,
+				07FE5B9DB7C84C3DE9F6DA3C /* Pods-Walky.release.xcconfig */,
+				154047466225D4E665D2FDF2 /* Pods-Walky-WalkyUITests.debug.xcconfig */,
+				00E1F036D834FF2E5181886E /* Pods-Walky-WalkyUITests.release.xcconfig */,
+				E9EC13506D775FFE992BF686 /* Pods-WalkyTests.debug.xcconfig */,
+				9A729E8E37710BA4AB822E45 /* Pods-WalkyTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,9 +171,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 337A15892951875C00CBCE23 /* Build configuration list for PBXNativeTarget "Walky" */;
 			buildPhases = (
+				B9C7CDA3673097534D7FC93A /* [CP] Check Pods Manifest.lock */,
 				337A155B2951875B00CBCE23 /* Sources */,
 				337A155C2951875B00CBCE23 /* Frameworks */,
 				337A155D2951875B00CBCE23 /* Resources */,
+				1B215EC51307694220D71EBC /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -151,6 +190,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 337A158C2951875C00CBCE23 /* Build configuration list for PBXNativeTarget "WalkyTests" */;
 			buildPhases = (
+				B656FFA3AC9ADE2B79AD0478 /* [CP] Check Pods Manifest.lock */,
 				337A15712951875C00CBCE23 /* Sources */,
 				337A15722951875C00CBCE23 /* Frameworks */,
 				337A15732951875C00CBCE23 /* Resources */,
@@ -169,9 +209,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 337A158F2951875C00CBCE23 /* Build configuration list for PBXNativeTarget "WalkyUITests" */;
 			buildPhases = (
+				C7517136EB97CDC2400E925D /* [CP] Check Pods Manifest.lock */,
 				337A157B2951875C00CBCE23 /* Sources */,
 				337A157C2951875C00CBCE23 /* Frameworks */,
 				337A157D2951875C00CBCE23 /* Resources */,
+				A1F2D05995A123786759F5CC /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -207,7 +249,7 @@
 				};
 			};
 			buildConfigurationList = 337A155A2951875B00CBCE23 /* Build configuration list for PBXProject "Walky" */;
-			compatibilityVersion = "Xcode 14.0";
+			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -233,7 +275,6 @@
 			files = (
 				337A156F2951875C00CBCE23 /* LaunchScreen.storyboard in Resources */,
 				337A156C2951875C00CBCE23 /* Assets.xcassets in Resources */,
-				337A156A2951875B00CBCE23 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -252,6 +293,109 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1B215EC51307694220D71EBC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Walky/Pods-Walky-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Walky/Pods-Walky-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Walky/Pods-Walky-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A1F2D05995A123786759F5CC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Walky-WalkyUITests/Pods-Walky-WalkyUITests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Walky-WalkyUITests/Pods-Walky-WalkyUITests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Walky-WalkyUITests/Pods-Walky-WalkyUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B656FFA3AC9ADE2B79AD0478 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WalkyTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B9C7CDA3673097534D7FC93A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Walky-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C7517136EB97CDC2400E925D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Walky-WalkyUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		337A155B2951875B00CBCE23 /* Sources */ = {
@@ -297,14 +441,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		337A15682951875B00CBCE23 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				337A15692951875B00CBCE23 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		337A156D2951875C00CBCE23 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -432,16 +568,18 @@
 		};
 		337A158A2951875C00CBCE23 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BB522442C9810712D5492F35 /* Pods-Walky.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VRDLN5RHTY;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Walky/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -459,16 +597,18 @@
 		};
 		337A158B2951875C00CBCE23 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 07FE5B9DB7C84C3DE9F6DA3C /* Pods-Walky.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VRDLN5RHTY;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Walky/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -486,6 +626,7 @@
 		};
 		337A158D2951875C00CBCE23 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E9EC13506D775FFE992BF686 /* Pods-WalkyTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -505,6 +646,7 @@
 		};
 		337A158E2951875C00CBCE23 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A729E8E37710BA4AB822E45 /* Pods-WalkyTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -524,6 +666,7 @@
 		};
 		337A15902951875C00CBCE23 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 154047466225D4E665D2FDF2 /* Pods-Walky-WalkyUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -541,6 +684,7 @@
 		};
 		337A15912951875C00CBCE23 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 00E1F036D834FF2E5181886E /* Pods-Walky-WalkyUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
